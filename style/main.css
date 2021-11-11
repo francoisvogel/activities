@@ -1,0 +1,139 @@
+html, body, div, p, footer, header, a, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+header {
+    z-index: 20;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    background-color: gainsboro;
+    border-radius: 20px;
+    padding: 15px;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header > a {
+    font-size: 20px;
+    color: black;
+    font-style: italic;
+    transition: 0.3s;
+}
+
+header > a:hover {
+    transform: scale(1.3);
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+}
+
+footer > a {
+    color: black;
+}
+
+.text_1 {
+    font-size: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text_2 {
+    font-size: 50px;
+}
+
+.text_3 {
+    font-size: 35px;
+}
+
+.full {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+#part1 {
+    background-image: url("../images/on_launch.jpg");
+    background-size: cover;
+    background-position: center;
+    color: rgb(228, 18, 18);
+    font-weight: bold;
+    text-align: center;
+}
+
+#down {
+    position: fixed;
+    left: 50%;
+    right: 50%;
+    font-size: 60px;
+    transition: 0.5s;
+    animation: down_move 0.5s alternate infinite;
+}
+
+#part2 {
+    font-weight: 500;
+    background-color: black;
+}
+
+#read_more {
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+    transition: 0.5s;
+    color: rgb(9, 61, 204);
+}
+
+#read_more:hover {
+    color: rgb(9, 149, 204);
+}
+
+#arrows {
+    animation: move_arrows 0.5s alternate infinite;
+}
+
+.gradient {
+    background-image: linear-gradient(to bottom right, #d8ba12, #a02c4d);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+@keyframes move_arrows {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: 20px;
+    }
+}
+
+@keyframes down_move {
+    0% {
+        bottom: 20px;
+    }
+    100% {
+        bottom: 50px;
+    }
+}
