@@ -80,6 +80,8 @@ footer > a {
 }
 
 #down {
+    color: red;
+    font-weight: 700;
     position: fixed;
     left: 50%;
     right: 50%;
