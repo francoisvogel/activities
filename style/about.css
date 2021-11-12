@@ -1,0 +1,5 @@
+#part3 {
+    background-image: linear-gradient(to bottom right, #d8ba12, #a02c4d);
+    text-align: center;
+    z-index: 10;
+}

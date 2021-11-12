@@ -1,6 +1,11 @@
 #part3 {
-    z-index: 10;
     background-image: linear-gradient(to bottom right, #d8ba12, #a02c4d);
+    text-align: center;
+}
+
+#part4 {
+    z-index: 10;
+    background-color: rgb(236, 193, 193);
 }
 
 table {
