@@ -1,5 +1,6 @@
-#part2 {
+#part3 {
     z-index: 10;
+    background-image: linear-gradient(to bottom right, #d8ba12, #a02c4d);
 }
 
 table {
