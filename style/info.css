@@ -16,6 +16,11 @@
     background-color: rgb(236, 193, 193);
 }
 
+#map {
+    height: 65%;
+    width: 90%;
+}
+
 table {
     font-size: 23rem;
     margin: 30rem;
