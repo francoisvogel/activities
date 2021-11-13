@@ -68,6 +68,7 @@ html, body, div, p, footer, header, a, h1, h2, h3, h4, h5, h6 {
         justify-content: space-around;
     }
     header > a {
+        font-size: 22rem;
         color: black;
     }
 }
@@ -90,6 +91,8 @@ footer {
     font-size: 15rem;
     text-align: center;
     padding: 3rem;
+    z-index: 40;
+    background-color: white;
 }
 
 footer>a {
@@ -136,6 +139,7 @@ footer>a {
 }
 
 #down {
+    z-index: 2;
     color: red;
     font-weight: 700;
     position: fixed;
