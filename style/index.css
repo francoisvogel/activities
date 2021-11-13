@@ -72,7 +72,7 @@
 @media only screen and (max-width: 1400px) {
     .person {
         width: 90%;
-        height: 380px;
+        height: 410px;
     }
     .person > div > h1 {
         font-size: 40px;
