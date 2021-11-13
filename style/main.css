@@ -26,6 +26,17 @@ html, body, div, p, footer, header, a, h1, h2, h3, h4, h5, h6 {
     header {
         display: flex;
         flex-direction: column;
+        font-size: 30px;
+        text-align: center;
+    }
+    header::before {
+        content: "Welcome to activators.cc";
+    }
+    header > a {
+        text-align: left;
+        color: blue;
+        font-style: italic;
+        border-bottom: 1px solid black;
     }
 }
 
@@ -43,11 +54,13 @@ html, body, div, p, footer, header, a, h1, h2, h3, h4, h5, h6 {
         flex-direction: row;
         justify-content: space-around;
     }
+    header > a {
+        color: black;
+    }
 }
 
 header>a {
     font-size: 20px;
-    color: black;
     transition: 0.3s;
     height: 100%;
     padding: 15px;
