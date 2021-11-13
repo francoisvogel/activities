@@ -3,6 +3,14 @@
     text-align: center;
 }
 
+#part3 > h1 {
+    font-size: 40rem;
+}
+
+#part3 > h2 {
+    font-size: 30rem;
+}
+
 #part4 {
     z-index: 10;
     background-color: rgb(236, 193, 193);
