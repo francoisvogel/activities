@@ -17,14 +17,14 @@
     justify-content: center;
     align-items: center;
     width: 90%;
-    padding: 10px;
-    margin: 50px;
+    padding: 10rem;
+    margin: 50rem;
 }
 
 #read_more {
-    margin-top: 30px;
-    border-radius: 20px;
-    padding: 10px;
+    margin-top: 30rem;
+    border-radius: 20rem;
+    padding: 10rem;
     background-color: rgb(194, 182, 182);
     transition: 0.5s;
     color: rgb(9, 61, 204);
@@ -39,17 +39,17 @@
     animation: appear 12s/* this number must be same one as in typewriter.js for dynamic innerHTML update */
     steps(25, end) infinite, caret 0.75s infinite;
     white-space: nowrap;
-    border-right: 5px solid;
+    border-right: 5rem solid;
     overflow: hidden;
     margin: 0 auto;
 }
 
 .person {
-    border-radius: 20px;
-    border: 3px solid gainsboro;
+    border-radius: 20rem;
+    border: 3rem solid gainsboro;
     background-color: rgb(10, 42, 221);
-    padding: 15px;
-    margin: 10px;
+    padding: 15rem;
+    margin: 10rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -59,32 +59,32 @@
 @media only screen and (max-width: 1400px) {
     .person {
         width: 90%;
-        height: 410px;
+        height: 410rem;
     }
     .person > div > h1 {
-        font-size: 40px;
+        font-size: 40rem;
     }
     .person > div > h2 {
-        font-size: 28px;
+        font-size: 28rem;
     }
     .person > div > p {
-        font-size: 25px;
+        font-size: 25rem;
     }
 }
 
 @media only screen and (min-width: 1400px) {
     .person {
-        width: 600px;
-        height: 230px;
+        width: 600rem;
+        height: 230rem;
     }
     .person > div > h1 {
-        font-size: 30px;
+        font-size: 30rem;
     }
     .person > div > h2 {
-        font-size: 15px;
+        font-size: 15rem;
     }
     .person > div > p {
-        font-size: 15px;
+        font-size: 15rem;
     }
 }
 
@@ -107,7 +107,7 @@
 }
 
 .person > div > div > a > img {
-    margin: 10px;
+    margin: 10rem;
     filter: invert(100%);
 }
 
@@ -121,10 +121,10 @@
 }
 
 .person > div > p {
-    padding: 1px;
-    border-radius: 25px;
-    border: 1px solid white;
-    padding: 8px;
+    padding: 1rem;
+    border-radius: 25rem;
+    border: 1rem solid white;
+    padding: 8rem;
     background-color: rgb(7, 48, 160);
     color: white;
     font-weight: 320;
@@ -140,7 +140,7 @@
 
 .person > img {
     border-radius: 50%;
-    border: 3px solid gainsboro;
+    border: 3rem solid gainsboro;
     height: auto;
     width: 30%;
 }
@@ -151,8 +151,8 @@
 }
 
 .contact {
-    height: 30px;
-    width: 30px;
+    height: 30rem;
+    width: 30rem;
 }
 
 @keyframes appear {

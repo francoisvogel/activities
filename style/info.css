@@ -9,11 +9,11 @@
 }
 
 table {
-    font-size: 23px;
-    margin: 30px;
+    font-size: 23rem;
+    margin: 30rem;
 }
 
 tr, th, td {
-    border: 1px solid white;
-    padding: 10px;
+    border: 1rem solid white;
+    padding: 10rem;
 }

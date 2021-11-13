@@ -1,5 +1,17 @@
+@media only screen and (max-width: 800px) {
+    html {
+        font-size: 0.7px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    html {
+        font-size: 1px;
+    }
+}
+
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 10rem;
 }
 
 ::-webkit-scrollbar-track {
@@ -7,8 +19,8 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 5px;
+    background: #888888;
+    border-radius: 5rem;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -26,17 +38,18 @@ html, body, div, p, footer, header, a, h1, h2, h3, h4, h5, h6 {
     header {
         display: flex;
         flex-direction: column;
-        font-size: 30px;
+        font-size: 40rem;
         text-align: center;
     }
     header::before {
         content: "Welcome to activators.cc";
     }
     header > a {
+        font-size: 30rem;
         text-align: left;
         color: blue;
         font-style: italic;
-        border-bottom: 1px solid black;
+        border-bottom: 1rem solid black;
     }
 }
 
@@ -44,11 +57,11 @@ html, body, div, p, footer, header, a, h1, h2, h3, h4, h5, h6 {
     header {
         z-index: 20;
         position: fixed;
-        top: 10px;
-        left: 10px;
-        right: 10px;
+        top: 10rem;
+        left: 10rem;
+        right: 10rem;
         background-color: gainsboro;
-        border-radius: 20px;
+        border-radius: 20rem;
         opacity: 0.8;
         display: flex;
         flex-direction: row;
@@ -60,10 +73,9 @@ html, body, div, p, footer, header, a, h1, h2, h3, h4, h5, h6 {
 }
 
 header>a {
-    font-size: 20px;
     transition: 0.3s;
     height: 100%;
-    padding: 15px;
+    padding: 15rem;
 }
 
 header>a:hover {
@@ -76,7 +88,7 @@ header>a:active {
 
 footer {
     text-align: center;
-    padding: 3px;
+    padding: 3rem;
 }
 
 footer>a {
@@ -84,17 +96,17 @@ footer>a {
 }
 
 .text_1 {
-    font-size: 80px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font-size: 80rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
 }
 
 .text_2 {
-    font-size: 50px;
+    font-size: 50rem;
 }
 
 .text_3 {
-    font-size: 35px;
+    font-size: 35rem;
 }
 
 .full {
@@ -128,7 +140,7 @@ footer>a {
     position: fixed;
     left: 50%;
     right: 50%;
-    font-size: 60px;
+    font-size: 60rem;
     transition: 0.5s;
     animation: down_move 0.5s alternate infinite;
 }
@@ -165,19 +177,19 @@ footer>a {
 
 @keyframes move_arrows {
     0% {
-        margin-left: 0px;
+        margin-left: 0rem;
     }
     100% {
-        margin-left: 20px;
+        margin-left: 20rem;
     }
 }
 
 @keyframes down_move {
     0% {
-        bottom: 20px;
+        bottom: 20rem;
     }
     100% {
-        bottom: 50px;
+        bottom: 50rem;
     }
 }
 
