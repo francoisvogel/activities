@@ -87,6 +87,7 @@ header>a:active {
 }
 
 footer {
+    font-size: 15rem;
     text-align: center;
     padding: 3rem;
 }
