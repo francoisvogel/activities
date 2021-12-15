@@ -88,6 +88,10 @@ header>a:active {
     background-color: grey;
 }
 
+#part1>*, #part1>*>* {
+    color: greenyellow;
+}
+
 footer {
     font-size: 15rem;
     text-align: center;
