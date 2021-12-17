@@ -160,6 +160,11 @@ footer>a {
     background-color: black;
 }
 
+.part2 {
+    font-weight: 500;
+    background-color: black;
+}
+
 #arrows {
     animation: move_arrows 0.5s alternate infinite;
 }
